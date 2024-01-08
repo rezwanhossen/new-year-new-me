@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('images/banner/banner1.png');
+    background-size: cover;
+    height: 100vh;
+}
+.header-text{
+    text-align: end;
+    margin-right: 10%;
+    padding-top: 150px;
+}
+.banner_title{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+.banner_description{
+    color: rgb(83, 83, 83);
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.banner-button{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.banner-button:hover{
+    box-shadow: 4px 4px 10px rgb(126, 18, 18);
+    padding: 16px 26px;
+    font-size: 21px;
+}
+main{
+    max-width: 80%;
+    margin: auto;
+    
+}
+.about{
+    display: flex;
+    margin-top: 10%;
+    gap: 30px;
+    margin-bottom: 6%;
+
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 80%;
+}
+.about-descript{
+    width: 45%;
+    padding: 170px 20px;
+    line-height: 25px;
+    
+}
+.about-descript >h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.myplanh1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    gap: 5px; 
+    margin-bottom: 10%;
+}
+.plans>div{
+    text-align: center;
+    padding: 15px;
+}
+.plans>div:hover{
+    border: 2px solid tomato;
+    box-shadow: 2px 2px 5px gray ;
+    border-radius: 8px;
+}
+.section{
+    background-image: url('images/gradient1.png'),url('images/watch.png');
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 10%;
+}
+.section-text{
+    padding: 50px 40px;
+    font-size: 30px;
+    font-weight: 800;
+}
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: tomato;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    color: gainsboro;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+footer>div{
+   margin: 70px auto;
+   line-height: 25px;
+}
+footer>div>h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+footer>div>p{
+    color: gray;
+    margin-bottom: 6px;
+}
+.socil_midea img{
+    margin-left: 8px;
+}
+.sub h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.sub input{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
